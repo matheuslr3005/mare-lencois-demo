@@ -1,5 +1,7 @@
 # Maré Lençóis · Demo de site de reservas
 
+**Demo online:** https://mare-lencois-demo.vercel.app
+
 Demonstração de um site de aluguel de **buggy, quadriciclo e e-bike** para os Lençóis Maranhenses, com
 calendário de disponibilidade, reserva com pagamento simulado e painel do lojista.
 
@@ -40,6 +42,10 @@ Para gerar um `SESSION_SECRET`: `openssl rand -hex 32`.
 ## Stack
 
 Next.js 15 (App Router) · React 19 · TypeScript · Tailwind CSS 4
+
+## Sobre a hospedagem do demo
+
+Na Vercel os dados ficam na memória do servidor e **reiniciam** a cada novo deploy ou quando o servidor "dorme". É suficiente para demonstração. Em produção, use um banco de dados.
 
 ## Próximos passos para produção
 

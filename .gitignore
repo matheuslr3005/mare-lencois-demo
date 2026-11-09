@@ -17,3 +17,7 @@ proposta/
 
 # sistema
 .DS_Store
+
+# Vercel
+.vercel
+.env*
