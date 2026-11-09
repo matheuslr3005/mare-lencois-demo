@@ -1,0 +1,19 @@
+# dependências e build
+node_modules
+.next
+next-env.d.ts
+*.tsbuildinfo
+
+# segredos (nunca publicar)
+.env
+.env.local
+.env.*.local
+
+# arquivos do editor/assistente
+.claude/
+
+# proposta comercial: tem valores e dados do cliente, fica só na sua máquina
+proposta/
+
+# sistema
+.DS_Store
